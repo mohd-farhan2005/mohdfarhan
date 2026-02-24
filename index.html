@@ -9,6 +9,13 @@
     <meta name="author" content="Muhammad Farhan">
     <title>Muhammad Farhan | Web Developer & Graphic Designer</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -49,6 +56,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero-section">
         <div class="hero-overlay"></div>
+        <canvas id="particles"></canvas>
         <div class="container">
             <div class="row align-items-center min-vh-100">
                 <div class="col-lg-8 mx-auto text-center hero-content">
@@ -59,10 +67,12 @@
                         Hi, I'm <span class="gradient-text">Muhammad Farhan</span>
                     </h1>
                     <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-                        Web Developer <span class="divider">|</span> Graphic Designer
+                        Web Design Faculty <span class="divider">|</span> Web Developer <span class="divider">|</span>
+                        Graphic Designer
                     </h2>
                     <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
-                        I'm Muhammad Farhan, a dedicated web developer passionate about creating responsive and user-friendly websites that provide seamless experiences across all devices.
+                        I'm Muhammad Farhan, a dedicated web developer passionate about creating responsive and
+                        user-friendly websites that provide seamless experiences across all devices.
                     </p>
                     <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
                         <a href="#portfolio" class="btn btn-primary btn-lg me-3">
@@ -73,7 +83,8 @@
                         </a>
                     </div>
                     <div class="social-links" data-aos="fade-up" data-aos-delay="500">
-                        <a href="https://www.linkedin.com/in/muhammad-farhan-69603a300/" target="_blank" class="social-icon">
+                        <a href="https://www.linkedin.com/in/muhammad-farhan-69603a300/" target="_blank"
+                            class="social-icon">
                             <i class="bi bi-linkedin"></i>
                         </a>
                         <a href="https://github.com/muhammadfarhans" target="_blank" class="social-icon">
@@ -105,47 +116,57 @@
                     <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
                 </div>
             </div>
-            <div class="row align-items-center">
+            <div class="row align-items-start">
                 <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
                     <div class="about-image-wrapper">
                         <div class="about-image-border"></div>
                         <img src="1.png" alt="Muhammad Farhan" class="about-image">
                         <div class="about-badge">
                             <i class="bi bi-award"></i>
-                            <span>8+ Months<br>Experience</span>
+                            <span>1+ Year<br>Experience</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7" data-aos="fade-left">
                     <div class="about-content">
-                        <h3 class="about-subtitle">Passionate Developer & Creative Designer</h3>
+                        <h3 class="about-subtitle">Passionate Developer, Designer & Educator</h3>
                         <p class="about-text">
-                            My journey into web development started with a fascination for how websites work and has evolved into a career where I continually strive to learn new technologies and improve my skills. I specialize in creating dynamic and responsive websites that provide
+                            My journey into web development started with a fascination for how websites work and has
+                            evolved into a rewarding career where I continually strive to learn and share knowledge. I
+                            specialize in creating dynamic and responsive websites that provide
                             users with a seamless experience across all devices.
                         </p>
                         <p class="about-text">
-                            I am proficient in <strong>HTML, CSS, JavaScript, jQuery, PHP, Laravel, and MySQL</strong>, alongside expertise in design tools like <strong>Adobe Photoshop, Illustrator, Premiere Pro, CorelDRAW, and Blender</strong>.
+                            I am proficient in <strong>HTML, CSS, JavaScript, jQuery, PHP, Laravel, and MySQL</strong>,
+                            alongside expertise in design tools like <strong>Adobe Photoshop, Illustrator, Premiere Pro,
+                                CorelDRAW, and Blender</strong>.
                         </p>
                         <p class="about-text">
-                            <strong>During my time at Ecrafts Info Solutions</strong>, I improved my web development skills significantly and gained confidence in real-world projects. I worked on responsive websites, enhanced my PHP and Laravel capabilities,
-                            and developed WordPress solutions for clients.
+                            <strong>Currently at Alpha Digital Marketing Academy</strong>, I serve as a Web Design
+                            Faculty,
+                            teaching and mentoring students in modern web design and development. Before that, I worked
+                            at
+                            <strong>Ecrafts Info Solutions</strong> as a Web Developer Intern on real client projects.
                         </p>
                         <p class="about-text">
-                            Before that, I completed a comprehensive 4-month training at <strong>e-Academy</strong>, where I learned the fundamentals of web development and design that laid the foundation for my career.
+                            My foundation was built during an intensive 4-month training at <strong>ER Academy</strong>,
+                            where I mastered web development fundamentals that launched my career.
                         </p>
                         <div class="about-note">
                             <i class="bi bi-info-circle"></i>
-                            <em>I'm still improving in Core PHP but growing stronger with each project. I believe in continuous learning and pushing my boundaries every day.</em>
+                            <em>I'm still improving in Core PHP but growing stronger with each project. I believe in
+                                continuous learning and pushing my boundaries every day.</em>
                         </div>
                         <p class="about-text">
-                            Outside of coding, I enjoy <strong>sports, driving, and poster designs</strong>. Let's work together to bring your ideas to life on the web!
+                            Outside of coding, I enjoy <strong>sports, driving, and poster designs</strong>. Let's work
+                            together to bring your ideas to life on the web!
                         </p>
                         <div class="about-info mt-4">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <div class="info-item">
                                         <i class="bi bi-envelope-fill"></i>
-                                        <span>mohdfarhan1708225@gmail.com</span>
+                                        <span>mohdfarhan17082005@gmail.com</span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-3">
@@ -169,8 +190,32 @@
                             </div>
                         </div>
                         <a href="#contact" class="btn btn-primary mt-4">
-                            <i class="bi bi-download"></i> Contact Now
+                            <i class="bi bi-envelope"></i> Contact Now
                         </a>
+
+                        <!-- Animated Stats -->
+                        <div class="about-stats mt-5" data-aos="fade-up">
+                            <div class="stat-item">
+                                <span class="stat-number counter" data-target="50">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">Projects Done</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number counter" data-target="3">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">Years Learning</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number counter" data-target="30">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">Students Taught</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number counter" data-target="10">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">Skills Mastered</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,7 +252,8 @@
                             <span class="skill-percentage">95%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -219,7 +265,8 @@
                             <span class="skill-percentage">85%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -231,7 +278,8 @@
                             <span class="skill-percentage">75%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -243,7 +291,8 @@
                             <span class="skill-percentage">80%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -255,7 +304,8 @@
                             <span class="skill-percentage">80%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -267,7 +317,8 @@
                             <span class="skill-percentage">85%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -289,7 +340,8 @@
                             <span class="skill-percentage">90%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 90%"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -300,7 +352,8 @@
                             <span class="skill-percentage">85%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 85%"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -311,7 +364,8 @@
                             <span class="skill-percentage">80%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 80%"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -322,7 +376,8 @@
                             <span class="skill-percentage">85%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 85%"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -333,7 +388,8 @@
                             <span class="skill-percentage">75%</span>
                         </div>
                         <div class="progress skill-progress">
-                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-design" role="progressbar" style="width: 75%"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -356,26 +412,72 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="timeline">
-                        <!-- Experience Item 1 -->
+                        <!-- Experience Item 1 - Current Job -->
                         <div class="timeline-item" data-aos="fade-up">
+                            <div class="timeline-marker current-marker"></div>
+                            <div class="timeline-content current-job">
+                                <span class="timeline-date current-date">
+                                    <i class="bi bi-calendar3"></i> February 23, 2025 - Present
+                                    <span class="current-badge"><i class="bi bi-circle-fill"></i> Current</span>
+                                </span>
+                                <h4 class="timeline-title">Web Design Faculty</h4>
+                                <h5 class="timeline-company">
+                                    <i class="bi bi-building"></i> Alpha Digital Marketing Academy
+                                </h5>
+                                <p class="timeline-description">
+                                    Joined Alpha Digital Marketing Academy as a Web Design Faculty, where I teach and
+                                    mentor students in modern web design and development technologies.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    <li><i class="bi bi-check-circle-fill"></i> Teaching HTML, CSS, JavaScript, and
+                                        responsive web design</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Designing and delivering structured
+                                        course curriculum</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Mentoring students on real-world web
+                                        design projects</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Conducting hands-on workshops and
+                                        practical sessions</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Guiding students in UI/UX best practices
+                                        and design principles</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span class="skill-tag">HTML5</span>
+                                    <span class="skill-tag">CSS3</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">UI/UX Design</span>
+                                    <span class="skill-tag">Teaching</span>
+                                    <span class="skill-tag">Curriculum Design</span>
+                                    <span class="skill-tag">Mentoring</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Experience Item 2 -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
                             <div class="timeline-marker"></div>
                             <div class="timeline-content">
                                 <span class="timeline-date">
-                                    <i class="bi bi-calendar3"></i> January 2025 - Present
+                                    <i class="bi bi-calendar3"></i> January 2025 - February 18, 2025
                                 </span>
-                                <h4 class="timeline-title">Web Developer Intern</h4>
+                                <h4 class="timeline-title">Laravel Developer</h4>
                                 <h5 class="timeline-company">
                                     <i class="bi bi-building"></i> Ecrafts Info Solutions
                                 </h5>
                                 <p class="timeline-description">
-                                    Working as a Web Developer Intern at Ecrafts Info Solutions, where I've gained 8 months of valuable hands-on experience in professional web development.
+                                    Worked as a Laravel Developer at Ecrafts Info Solutions, building and maintaining
+                                    web applications using Laravel, PHP, MySQL, and modern front-end technologies.
                                 </p>
                                 <ul class="timeline-achievements">
-                                    <li><i class="bi bi-check-circle-fill"></i> Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Enhanced PHP and Laravel skills through real-world projects</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Improved WordPress development capabilities and theme customization</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Collaborated with team members on client projects</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Gained confidence in handling complex development tasks</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Developed responsive websites using
+                                        HTML, CSS, JavaScript, and Bootstrap</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Enhanced PHP and Laravel skills through
+                                        real-world projects</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Improved WordPress development
+                                        capabilities and theme customization</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Collaborated with team members on client
+                                        projects</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Gained confidence in handling complex
+                                        development tasks</li>
                                 </ul>
                                 <div class="timeline-skills">
                                     <span class="skill-tag">HTML5</span>
@@ -389,26 +491,31 @@
                             </div>
                         </div>
 
-                        <!-- Experience Item 2 -->
-                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Experience Item 3 -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
                             <div class="timeline-marker"></div>
                             <div class="timeline-content">
                                 <span class="timeline-date">
-                                    <i class="bi bi-calendar3"></i> July 2024 - October 2024
+                                    <i class="bi bi-calendar3"></i> April 2025 - February 2026
                                 </span>
                                 <h4 class="timeline-title">Web Development Training</h4>
                                 <h5 class="timeline-company">
                                     <i class="bi bi-mortarboard"></i> e-Academy
                                 </h5>
                                 <p class="timeline-description">
-                                    Completed an intensive 4-month training program that laid the foundation for my web development career. Learned fundamental concepts and best practices.
+                                    Completed an intensive 10-month training program that laid the foundation for my web
+                                    development career. Learned fundamental concepts and best practices.
                                 </p>
                                 <ul class="timeline-achievements">
-                                    <li><i class="bi bi-check-circle-fill"></i> Mastered HTML, CSS, and JavaScript fundamentals</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Learned responsive web design principles</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Introduction to PHP and MySQL databases</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Mastered HTML, CSS, and JavaScript
+                                        fundamentals</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Learned responsive web design principles
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Introduction to PHP and MySQL databases
+                                    </li>
                                     <li><i class="bi bi-check-circle-fill"></i> Built multiple practice projects</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Developed problem-solving and debugging skills</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Developed problem-solving and debugging
+                                        skills</li>
                                 </ul>
                                 <div class="timeline-skills">
                                     <span class="skill-tag">HTML5</span>
@@ -460,7 +567,8 @@
                             <img src="images/portfolio/ooggle.png" alt="Project 1">
                             <div class="portfolio-overlay">
                                 <div class="portfolio-links">
-                                    <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                    <a href="#" class="portfolio-link" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal1">
                                         <i class="bi bi-eye"></i>
                                     </a>
                                     <a href="https://www.oggleinterior.com/" class="portfolio-link" target="_blank">
@@ -482,7 +590,8 @@
                 </div>
 
                 <!-- Portfolio Item 2 -->
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="design" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="design" data-aos="fade-up"
+                    data-aos-delay="100">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
                             <img src="images/portfolio/zlaten.png" alt="Project 2">
@@ -510,7 +619,8 @@
                 </div>
 
                 <!-- Portfolio Item 3 -->
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="design" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="design" data-aos="fade-up"
+                    data-aos-delay="200">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
                             <img src="images/portfolio/onam.png" alt="Project 3">
@@ -621,7 +731,8 @@
                     </div>
                 </div>
                 <!-- Portfolio Item 5 -->
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="design" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="design" data-aos="fade-up"
+                    data-aos-delay="100">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
                             <img src="images/portfolio/lustre.png" alt="Project 5">
@@ -645,7 +756,8 @@
                 </div>
 
                 <!-- Portfolio Item 6 -->
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="wordpress" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="wordpress" data-aos="fade-up"
+                    data-aos-delay="200">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
                             <img src="images/portfolio/ocean.png" alt="Project 6">
@@ -691,7 +803,8 @@
                 <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
                     <div class="contact-info-wrapper">
                         <h4 class="contact-info-title">Contact Information</h4>
-                        <p class="contact-info-text">Feel free to reach out to me through any of these channels. I'm always open to discussing new projects and opportunities.</p>
+                        <p class="contact-info-text">Feel free to reach out to me through any of these channels. I'm
+                            always open to discussing new projects and opportunities.</p>
 
                         <div class="contact-info-item">
                             <div class="contact-icon">
@@ -710,7 +823,7 @@
                             </div>
                             <div class="contact-details">
                                 <h6>Email</h6>
-                                <p>ohdfarhan17082025@gmail.com</p>
+                                <p>mohdfarhan17082005@gmail.com</p>
                             </div>
                         </div>
 
@@ -727,10 +840,12 @@
                         <div class="contact-social">
                             <h6>Follow Me</h6>
                             <div class="contact-social-links">
-                                <a href="https://www.linkedin.com/in/muhammad-farhan-69603a300/" target="_blank" class="contact-social-icon">
+                                <a href="https://www.linkedin.com/in/muhammad-farhan-69603a300/" target="_blank"
+                                    class="contact-social-icon">
                                     <i class="bi bi-linkedin"></i>
                                 </a>
-                                <a href="https://github.com/muhammadfarhans" target="_blank" class="contact-social-icon">
+                                <a href="https://github.com/muhammadfarhans" target="_blank"
+                                    class="contact-social-icon">
                                     <i class="bi bi-github"></i>
                                 </a>
                                 <a href="#" target="_blank" class="contact-social-icon">
@@ -744,41 +859,54 @@
                     </div>
                 </div>
                 <div class="col-lg-7" data-aos="fade-left">
-                    <form class="contact-form" id="contactForm">
+                    <form class="contact-form" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="form-group">
                                     <label for="name">Your Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                                    <input type="text" class="form-control" id="name" name="from_name"
+                                        placeholder="John Doe" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-4">
                                 <div class="form-group">
                                     <label for="email">Your Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                                    <input type="email" class="form-control" id="email" name="from_email"
+                                        placeholder="john@example.com" required>
                                 </div>
                             </div>
                             <div class="col-12 mb-4">
                                 <div class="form-group">
                                     <label for="subject">Subject</label>
-                                    <input type="text" class="form-control" id="subject" placeholder="Project Inquiry" required>
+                                    <input type="text" class="form-control" id="subject" name="subject"
+                                        placeholder="Project Inquiry" required>
                                 </div>
                             </div>
                             <div class="col-12 mb-4">
                                 <div class="form-group">
                                     <label for="message">Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                                    <textarea class="form-control" id="message" name="message" rows="5"
+                                        placeholder="Tell me about your project..." required></textarea>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="btn btn-primary btn-lg w-100">
-                                    <i class="bi bi-send"></i> Send Message
+                                <button type="submit" class="btn btn-primary btn-lg w-100" id="submitBtn">
+                                    <span id="btnText"><i class="bi bi-send"></i> Send Message</span>
+                                    <span id="btnLoading" class="d-none">
+                                        <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                                        Sending...
+                                    </span>
                                 </button>
                             </div>
                         </div>
                     </form>
                     <div class="alert alert-success mt-4 d-none" id="successMessage">
-                        <i class="bi bi-check-circle"></i> Thank you! Your message has been sent successfully.
+                        <i class="bi bi-check-circle-fill me-2"></i> Thank you! Your message has been sent successfully.
+                        I'll get back to you soon!
+                    </div>
+                    <div class="alert alert-danger mt-4 d-none" id="errorMessage">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i> Something went wrong. Please try again or
+                        email me directly.
                     </div>
                 </div>
             </div>
@@ -792,7 +920,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="footer-content">
                         <h3 class="footer-name">Muhammad Farhan</h3>
-                        <p class="footer-tagline">Web Developer & Graphic Designer</p>
+                        <p class="footer-tagline">Web Design Faculty | Web Developer & Graphic Designer</p>
                         <div class="footer-social">
                             <a href="https://www.linkedin.com/in/muhammad-farhan-69603a300/" target="_blank">
                                 <i class="bi bi-linkedin"></i>
@@ -826,6 +954,12 @@
 
     <!-- AOS Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Vanilla Tilt (3D card hover) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
     <!-- Custom JS -->
     <script src="script.js"></script>
